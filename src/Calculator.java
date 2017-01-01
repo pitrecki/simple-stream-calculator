@@ -74,9 +74,5 @@ public class Calculator
                 .reduce(params[0], (result, element) -> result / element);
         return  divide.calculate(values);
     }
-
-    void s() {
-
-    }
 }
 
